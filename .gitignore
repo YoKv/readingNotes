@@ -331,3 +331,4 @@ java-8-lambdas-exercises/target/test-classes/com/insightfullogic/java8/answers/c
 java-8-lambdas-exercises/target/test-classes/com/insightfullogic/java8/answers/chapter3/MapUsingReduceTest.class
 java-8-lambdas-exercises/target/test-classes/com/insightfullogic/java8/answers/chapter3/FilterUsingReduceTest.class
 java-8-lambdas-exercises/target/test-classes/com/insightfullogic/java8/answers/chapter2/Question2Test.class
+.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml
