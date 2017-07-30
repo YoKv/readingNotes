@@ -9,7 +9,7 @@ import java.util.Observable;
  * Created by tang on 2017/7/28.
  */
 public class CurrentConditionDispalyJdk implements java.util.Observer, DisplayElement {
-   Observable observable;
+    Observable observable;
     private float temperature;
     private float humidity;
 
@@ -26,7 +26,7 @@ public class CurrentConditionDispalyJdk implements java.util.Observer, DisplayEl
 
     @Override
     public void update(Observable o, Object arg) {
-        if(o instanceof WeatherDataJdk){
+        if (o instanceof WeatherDataJdk) {
             WeatherDataJdk weatherDataJdk = (WeatherDataJdk) o;
             this.temperature = weatherDataJdk.getTemperature();
             this.humidity = weatherDataJdk.getHumidity();

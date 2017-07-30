@@ -13,7 +13,7 @@ public abstract class Animal {
         eatBehavior.eat();
     }
 
-    public void sleep(){
+    public void sleep() {
         sleepBehavior.sleep();
     }
 

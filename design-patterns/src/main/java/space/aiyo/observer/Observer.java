@@ -6,11 +6,10 @@ package space.aiyo.observer;
  */
 public interface Observer {
     /**
-     *
      * @param temp
      * @param humidity
      * @param pressure
      */
-    void update(float temp,float humidity,float pressure);
+    void update(float temp, float humidity, float pressure);
 
 }
