@@ -1,9 +1,9 @@
-package space.aiyo.factory.abstractFactory;
+package space.aiyo.factory.factory;
 
 import space.aiyo.factory.pizza.CheesePizza;
 import space.aiyo.factory.pizza.Pizza;
 
-public class NYPizzaStore extends AbstractPizzaStore {
+public class ChicagoPizzaStore extends PizzaStore {
     @Override
     Pizza createPizza(String type) {
         Pizza pizza = null;
@@ -17,6 +17,5 @@ public class NYPizzaStore extends AbstractPizzaStore {
 
         return pizza;
     }
-
 
 }

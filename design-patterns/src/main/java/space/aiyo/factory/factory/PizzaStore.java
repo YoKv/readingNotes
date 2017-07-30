@@ -1,9 +1,8 @@
-package space.aiyo.factory.abstractFactory;
+package space.aiyo.factory.factory;
 
 import space.aiyo.factory.pizza.Pizza;
-import space.aiyo.factory.simpleFactory.SimplePizzaFactory;
 
-public abstract class AbstractPizzaStore {
+public abstract class PizzaStore {
     abstract Pizza createPizza(String type);
 
     public Pizza orderPizza(String type) {
