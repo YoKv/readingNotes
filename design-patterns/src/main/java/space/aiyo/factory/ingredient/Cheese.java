@@ -1,4 +1,4 @@
 package space.aiyo.factory.ingredient;
 
-public class Cheese {
+public interface Cheese {
 }

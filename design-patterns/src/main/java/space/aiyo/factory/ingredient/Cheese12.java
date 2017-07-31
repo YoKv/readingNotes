@@ -1,4 +1,4 @@
 package space.aiyo.factory.ingredient;
 
-public interface Sauce {
+public class Cheese12 implements Cheese {
 }
