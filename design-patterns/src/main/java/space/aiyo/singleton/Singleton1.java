@@ -1,7 +1,7 @@
 package space.aiyo.singleton;
 
 public class Singleton1 {
-    private static Singleton1 instance;
+    private static Singleton1 instance = null;
 
     private Singleton1() {
     }
