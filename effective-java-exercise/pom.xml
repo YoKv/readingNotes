@@ -3,16 +3,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>design-patterns</artifactId>
-	<packaging>jar</packaging>
-	<name>design-patterns</name>
-	<description>Head First设计模式 读书练习</description>
+	<artifactId>effective-java</artifactId>
+	<name>effective-java</name>
+	<description>effective-java readingNotes record</description>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>01createObject</module>
+		<module>02objectMethod</module>
+	</modules>
 
 	<parent>
 		<artifactId>readingNotes</artifactId>
 		<groupId>aiyo.space</groupId>
 		<version>1.0.0</version>
 	</parent>
-
 
 </project>
