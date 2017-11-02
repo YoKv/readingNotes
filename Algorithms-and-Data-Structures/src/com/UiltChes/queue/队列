@@ -1,0 +1,13 @@
+队列：(FIFO表)
+只允许在一端插入，另一端删除的 线性表
+
+假溢出：sq.rear=maxsize
+克服假溢出：循环队列
+	入队：
+		sq.rear=(sq.rear+1)%maxsize
+		sq.elem[rear]=x;
+	出队:
+		sq.front=(sq.front+1)%maxsize
+
+	队满：(sq.rear+1)%maxsize=sq.front;
+	队空：sq.front=sq.rear		
